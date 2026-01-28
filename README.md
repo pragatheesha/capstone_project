@@ -26,7 +26,6 @@ Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Busines
 
 ## Dataset Description
 * The dataset contains customer demographic, billing, and service-related information.
-|----------------|--------------------------------------------|
 | Key            | Columns                                    |
 |----------------|--------------------------------------------|
 | customerid     | Unique customer identifier                 |
