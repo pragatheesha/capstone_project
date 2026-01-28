@@ -24,28 +24,19 @@ Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Busines
 * executive_summary.pdf
 * technical_report.pdf
 
-📊 Dataset Description
-
-The dataset contains customer demographic, billing, and service-related information.
-
-Key Columns:
-
-customerid – Unique customer identifier
-
-tenure – Duration of customer relationship (months)
-
-monthlycharges – Monthly service charges
-
-totalcharges – Total charges paid by the customer
-
-contract – Type of customer contract
-
-paymentmethod – Payment method used
-
-seniorcitizen – Senior citizen indicator
-
-churn – Whether the customer has churned (Yes/No)
-
+## Dataset Description
+* The dataset contains customer demographic, billing, and service-related information.
+|----------------|--------------------------------------------|
+| Key            | Columns                                    |
+|----------------|--------------------------------------------|
+| customerid     | Unique customer identifier                 |
+| tenure         | Duration of customer relationship (months) |
+| monthlycharges | Monthly service charges                    |
+| totalcharges   | Total charges paid by the customer         |
+| contract       | Type of customer contract                  |
+| paymentmethod  | Payment method used                        |
+| seniorcitizen  | Senior citizen indicator                   |
+| churn          | Whether the customer has churned (Yes/No)  |
 The dataset was cleaned and standardized before analysis.
 
 🧹 Data Cleaning
