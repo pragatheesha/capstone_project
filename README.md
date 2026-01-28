@@ -2,7 +2,7 @@
 ## Project Overview
 
 Customer churn is a critical challenge for subscription-based businesses, as losing customers directly impacts revenue and long-term growth. This project performs an end-to-end data analysis on a customer churn dataset to identify key drivers of churn and provide actionable business recommendations to improve customer retention. The project follows a complete data analytics pipeline:
-Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Business Insights
+* Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Business Insights
 
 ## Objectives
 * Clean and prepare raw customer data for analysis
@@ -93,20 +93,11 @@ These tests confirmed that pricing, tenure, and contract type significantly infl
 | Seaborn & Matplotlib | Data visualization |
 | SciPy                | Statistical testing|
 
-🚀 How to Run the Project
+## How to Run the Project
+* Clone or download the repository
+* Install dependencies: pip install pandas numpy seaborn matplotlib scipy
+* Run the analysis notebook: jupyter notebook churn_analysis.ipynb
 
-Clone or download the repository
+## Conclusion
 
-Install dependencies:
-
-pip install pandas numpy seaborn matplotlib scipy
-
-
-Run the analysis notebook:
-
-jupyter notebook churn_analysis.ipynb
-
-🏁 Conclusion
-
-This project demonstrates how data analytics and statistics can be used to understand customer churn and support data-driven business decisions.
-The insights and recommendations from this analysis can help businesses reduce churn, improve retention, and increase customer lifetime value.
+This project demonstrates how data analytics and statistics can be used to understand customer churn and support data-driven business decisions.The insights and recommendations from this analysis can help businesses reduce churn, improve retention, and increase customer lifetime value.
