@@ -13,7 +13,7 @@ Customer churn is a critical challenge for subscription-based businesses, as los
 * Provide data-driven business recommendations
 
 ## Project Structure
-- customer-churn-analysis
+customer-churn-analysis
 * README.md
 * customer_churn.csv
 * cleaned_customer_churn.csv
