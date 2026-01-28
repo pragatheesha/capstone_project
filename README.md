@@ -1,28 +1,19 @@
 # Customer Churn Analysis – Capstone Project
 ## Project Overview
 
-Customer churn is a critical challenge for subscription-based businesses, as losing customers directly impacts revenue and long-term growth.
-This project performs an end-to-end data analysis on a customer churn dataset to identify key drivers of churn and provide actionable business recommendations to improve customer retention.
-
-The project follows a complete data analytics pipeline:
+Customer churn is a critical challenge for subscription-based businesses, as losing customers directly impacts revenue and long-term growth. This project performs an end-to-end data analysis on a customer churn dataset to identify key drivers of churn and provide actionable business recommendations to improve customer retention. The project follows a complete data analytics pipeline:
 Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Business Insights
 
-🎯 Objectives
+## Objectives
+* Clean and prepare raw customer data for analysis
+* Understand customer behavior through exploratory analysis
+* Identify factors influencing customer churn
+* Validate insights using statistical testing
+* Segment customers based on churn risk
+* Provide data-driven business recommendations
 
-Clean and prepare raw customer data for analysis
-
-Understand customer behavior through exploratory analysis
-
-Identify factors influencing customer churn
-
-Validate insights using statistical testing
-
-Segment customers based on churn risk
-
-Provide data-driven business recommendations
-
-📂 Project Structure
-📦 customer-churn-analysis
+## Project Structure
+* customer-churn-analysis
 │── README.md
 │── customer_churn.csv
 │── cleaned_customer_churn.csv
