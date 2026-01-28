@@ -13,21 +13,16 @@ Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Busines
 * Provide data-driven business recommendations
 
 ## Project Structure
-* customer-churn-analysis
-│── README.md
-│── customer_churn.csv
-│── cleaned_customer_churn.csv
-│── churn_analysis.ipynb
-│
-├── visuals/
-│   ├── churn_distribution.png
-│   ├── charges_vs_churn.png
-│   ├── tenure_vs_churn.png
-│   └── contract_vs_churn.png
-│
-├── reports/
-│   ├── executive_summary.pdf
-│   └── technical_report.pdf
+- customer-churn-analysis
+* README.md
+* customer_churn.csv
+* cleaned_customer_churn.csv
+* eda.ipynb
+* data_cleaning.ipynb
+* analysis.ipynb
+* visualizations
+* executive_summary.pdf
+* technical_report.pdf
 
 📊 Dataset Description
 
