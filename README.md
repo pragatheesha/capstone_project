@@ -25,7 +25,7 @@ Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Busines
 * technical_report.pdf
 
 ## Dataset Description
-* The dataset contains customer demographic, billing, and service-related information.
+The dataset contains customer demographic, billing, and service-related information.
   
 | Key            | Columns                                    |
 |----------------|--------------------------------------------|
@@ -37,85 +37,61 @@ Data Cleaning → Exploratory Data Analysis → Statistical Analysis → Busines
 | paymentmethod  | Payment method used                        |
 | seniorcitizen  | Senior citizen indicator                   |
 | churn          | Whether the customer has churned (Yes/No)  |
+
 The dataset was cleaned and standardized before analysis.
 
-🧹 Data Cleaning
-
+## Data Cleaning
 The following steps were performed:
+* Standardized column names
+* Converted incorrect data types
+* Handled missing values using median and mode
+* Removed duplicate records
+* Created derived features for deeper analysis
+* A cleaned dataset (cleaned_customer_churn.csv) was saved for analysis.
 
-Standardized column names
+## Exploratory Data Analysis (EDA)
+* EDA was performed to identify churn patterns and trends:
+* Churn distribution analysis
+* Monthly charges vs churn
+* Tenure vs churn
+* Contract type vs churn
+* Payment Method vs churn
+* Senior Citizen vs Churn
+* Correlation analysis of numeric features
+* Visualizations were created using Seaborn and Matplotlib.
 
-Converted incorrect data types
-
-Handled missing values using median and mode
-
-Removed duplicate records
-
-Created derived features for deeper analysis
-
-A cleaned dataset (cleaned_customer_churn.csv) was saved for analysis.
-
-📈 Exploratory Data Analysis (EDA)
-
-EDA was performed to identify churn patterns and trends:
-
-Churn distribution analysis
-
-Monthly charges vs churn
-
-Tenure vs churn
-
-Contract type vs churn
-
-Correlation analysis of numeric features
-
-Visualizations were created using Seaborn and Matplotlib.
-
-📉 Statistical Analysis
-
+## Statistical Analysis
 To validate insights, statistical tests were applied:
-
-t-tests to compare churned vs non-churned customers
-
-Chi-square tests to analyze categorical relationships
-
-Correlation analysis for numeric variables
-
+* t-tests to compare churned vs non-churned customers
+* t-tests to compare Monthly Charges vs Churn
+* t-tests to compare Tenure vs Churn
+* Chi-square tests to analyze categorical relationships
+* Chi-square tests to analyze Contract Type vs Churn
+* Chi-square tests to analyze Payment Method vs Churn
+* Correlation analysis for numeric variables
 These tests confirmed that pricing, tenure, and contract type significantly influence churn.
 
-🔍 Key Insights
+## Key Insights
+* Customers with higher monthly charges are more likely to churn
+* New customers (low tenure) have the highest churn risk
+* Month-to-month contracts show significantly higher churn
+* Long-term contracts improve customer retention
+* Pricing and contract structure are major churn drivers
 
-Customers with higher monthly charges are more likely to churn
+## Business Recommendations
+* Encourage long-term contracts with discounts and incentives
+* Target high-risk customers with personalized retention offers
+* Improve onboarding experience for new customers
+* Review pricing strategies for high-charge customers
 
-New customers (low tenure) have the highest churn risk
+## Tools & Technologies
 
-Month-to-month contracts show significantly higher churn
-
-Long-term contracts improve customer retention
-
-Pricing and contract structure are major churn drivers
-
-💡 Business Recommendations
-
-Encourage long-term contracts with discounts and incentives
-
-Target high-risk customers with personalized retention offers
-
-Improve onboarding experience for new customers
-
-Review pricing strategies for high-charge customers
-
-🛠️ Tools & Technologies
-
-Python
-
-Pandas – Data manipulation
-
-NumPy – Numerical analysis
-
-Seaborn & Matplotlib – Data visualization
-
-SciPy – Statistical testing
+| Python               |                    |
+|----------------------|--------------------|
+| Pandas               | Data manipulation  |
+| NumPy                | Numerical analysis |
+| Seaborn & Matplotlib | Data visualization |
+| SciPy                | Statistical testing|
 
 🚀 How to Run the Project
 
