@@ -23,6 +23,7 @@ customer-churn-analysis
 * visualizations
 * executive_summary.pdf
 * technical_report.pdf
+* Customer_Churn_Analysis_Presentation.pptx
 
 ## Dataset Description
 The dataset contains customer demographic, billing, and service-related information.
